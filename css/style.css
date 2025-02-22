@@ -34,10 +34,13 @@
         li{
             list-style-type: none;
         }
+        li{
+            list-style-type: none;
+        }
         
        }
        footer h2{
-        color: cornsilk;
+        color:  rgb(199, 169, 129);
        }
        a:link {
                 color: blue; 
