@@ -42,9 +42,9 @@
         color:  rgb(199, 169, 129);
        }
        a:link {
-                color: #EFF4A9; 
+                color: #F5F5F5; 
                } /* unvisited link */
-       a:visited { color:rgb(136, 37, 123); } /* visited link */
+       a:visited { color:rgb(189, 149, 183); } /* visited link */
        
        a:hover { color:darkgreen; 
                text-decoration:none} /* mouse over link */
