@@ -55,7 +55,7 @@
         height: auto;
         display: block;
         margin: 10px auto;
-        border-raidus: 8px
+        
        }
        
        figure {
@@ -65,9 +65,16 @@
        }
 
        figcaption {
-        front-size: 14px;
+        font-size: 14px;
         color: #555;
        }
+
+      /* .large-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+       } */
 
 
 
