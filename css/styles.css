@@ -42,11 +42,11 @@
         color:  rgb(199, 169, 129);
        }
        a:link {
-                color: #F5F5F5; 
+                color: #967e7e; 
                } /* unvisited link */
        a:visited { color:rgb(189, 149, 183); } /* visited link */
        
-       a:hover { color:darkgreen; 
+       a:hover { color:rgb(94, 87, 196); 
                text-decoration:none} /* mouse over link */
        
        a:active { color:yellow; }  /* selected link */
@@ -76,6 +76,21 @@
         display: block;
         margin: 0 auto;
        } */
+
+       footer a:link{
+        color: #f5f2f2; 
+        
+       }
+         footer a:visited { 
+            color:rgb(202, 176, 154); 
+        }       
+        footer a:hover { 
+            color:rgb(94, 87, 196); 
+            text-decoration:none
+        } 
+        footer a:active { 
+            color:yellow; 
+        }
 
 
 
