@@ -59,6 +59,11 @@
         
        }
        
+       .blog.images{
+        width: 10%;
+        display: block ;
+        margin: 0 auto;
+       }
        figure {
         text-align: center;
         margin: 0;
