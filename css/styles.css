@@ -39,10 +39,10 @@
         
     
        footer h2{
-        color:  rgb(199, 169, 129);
+        color:  #EFF4A9;
        }
        a:link {
-                color: blue; 
+                color: #EFF4A9; 
                } /* unvisited link */
        a:visited { color:rgb(136, 37, 123); } /* visited link */
        
