@@ -7,13 +7,16 @@
     <title>My First Page</title>
     <link rel="icon" href="images/apple-icon-57x57.png" type="image/png" sizes="57x57">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
     
 </head>
 
 <body>
     <header> 
 
-        <h1>Web Tools Porject 2025</h1>
+        <h1>Web Tools Porject 2025</h1> <!-- class="banner-heading"-->
+        <img src="images/logo.png" alt="Site Logo" class="logo">
     </header>
     <nav> 
     <!-- <a href="index.html">Home</a>
@@ -22,23 +25,31 @@
     </nav>  
     
 
-    <main> 
+    <main class="contents"> 
+        <aside id="contents" class="contact-aside">
         
-        
-         <nav id="contents">
+         <!-- <nav id="contents"> -->
            <ul>
                <li> <a href="#introduction">INTRODUCTION</a></li>
                <li> <a href="#past-course-i-took">PAST COURSES I TOOK</a></li>
                <li> <a href="#reason-for-taking-class">REASON FOR TAKING THIS CLASS</a></li>
                <li> <a href="#personal-hobbies">PERSONAL HOBBIES</a></li>
             </ul>
-         </nav>
-            
+         <!-- </nav> -->
+            </aside>
 
         
     <h2>Welcome To 'About Me' Page</h2>
-     <section> 
-        <h3 id="introduction">INTRODUCTION</h3>
+    <hr>
+     <section class="highlight clearfix"> 
+         <figure class="float-right article-image">
+             <a href="images/cappadocia-thumb-lg.png" target="_blank">
+                 <img src="images/cappadocia-thumb.png" alt="Cappadocia" class="thumbnail blog-images">
+             </a>
+             <figcaption>My hometown Cappadocia</figcaption>
+         </figure>
+        <div class="highlight-text">
+            <h3 id="introduction">INTRODUCTION</h3>
        
             <p>Hi, my name is Gizem. I am from Cappadocia, which mean is Land of Beatiful Horses.
                 I am currently pursuing an Associate of Science in Software Development, 
@@ -47,15 +58,8 @@
                 I am highly motivated to build a strong foundation in programming, 
                 database management, and system design, as I believe these are essential skills for a successful career in software development.</p>
                 <!-- https://www.nationalgeographic.com/travel/world-heritage/article/cappadocia -->
-
-                <figure>
-                    <a href="images/cappadocia-thumb-lg.png" target="_blank">
-                        <img src="images/cappadocia-thumb.png" alt="Cappadocia" class="thumbnail blog-images">
-                    </a>
-                    <figcaption>My hometown Cappadocia</figcaption>
-                </figure>
-                
-                
+        </div>
+    
             <br>
 
                 
@@ -70,10 +74,10 @@
                 Additionally, I have studied web design tools and English composition to enhance both my technical and communication skills. 
                 These courses are crucial for my academic and professional growth, 
                as they equip me with the knowledge needed to succeed in the tech industry.
-               <br>
-                
             </p>
+            
         </section>
+        <br>
         <section>
             <h3 id="reason-for-taking-class">REASON FOR TAKING THIS CLASS</h3>
             <p>I’m taking Web Design Tools because I want to build a strong foundation in front-end development. 
@@ -96,11 +100,8 @@
                     </a>
                     <figcaption>Tester vs Developer</figcaption>
                 </figure>
-                
-                
-                <br>
-
-        </section>
+                </section>
+        <br>
         <section> 
             <h3 id="personal-hobbies">PERSONAL HOBBIES</h3>
         <p>Beyond academics, I have a variety of interests that keep me balanced.
@@ -129,10 +130,8 @@
                     </a>
                     <figcaption>Olu Deniz, Mugla/Turkiye</figcaption>
                 </figure>
-                
-                <br>
-                
         </section>
+        <br>
     </main>
 
     <footer>
