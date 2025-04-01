@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Page</title>
+        <link rel="icon" href="images/apple-icon-57x57.png" type="image/png" sizes="57x57">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/layout.css">
+    
+    
+    </head>
+
+    <body>
+
+        <!-- Main Navigation (Pages)-->
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+
+        <header>
+               <h1> My First Page </h1>
+
+        </header>
+
+        <main>
+            <form action="Pages/success.html" method="post"> <!-- Action to success.html, POST method -->
+               <fieldset class="contact">
+                    <legend>Contact Us</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    <p>
+
+
+                    <p> <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    
+                    <p>
+                        <label for="topic">Topic:</label>
+                        <select name="topic" id="topic"></select>
+                        <option value="general">General Inquiry</option>
+                        <option value="intrudicion">Technical Support</option>
+                        <option value="lastcourses">Feedback</option>
+                        <option value="hobbies">Other</option>
+                    </p>
+
+                    <p>
+                        <label for="favcolor">favColor</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="favcolor" name="favcolor" value="#ff0000"  required>Red
+                    </p>
+
+                    <p>
+                        <input type="radio" id="favcolor" name="favcolor" value="#00ff00">Green
+                    </p>
+                    <p>
+                        <input type="radio" id="favcolor" name="favcolor" value="#0000ff">Blue
+                    </p>
+                    <p>
+                        <input type="radio" id="favcolor" name="favcolor" value="#ffff00">Yellow 
+                    </p>
+                                            
+                                
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    </p>
+                                                
+                    <p> <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </p>
+                </fieldset>
+               </form>
+            </main>
+               
+    <footer>
+        <h2>Copy Right &copy; 2025;</h2>
+    <ul>
+        <li> <a href="https://www.dallascollege.edu/pages/default.aspx">Visit Dallas College</a></li>
+        <li> <a href="mailto:blabla@gmail.com">Email the soon master</a> </li>
+
+    </ul>
+    <address>Brookhaven, TEXAS</address>
+
+    </footer>
+
+</body>
+
+</html>
