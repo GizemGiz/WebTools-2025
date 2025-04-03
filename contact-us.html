@@ -7,7 +7,7 @@
         <title>My First Page</title>
         <link rel="icon" href="images/apple-icon-57x57.png" type="image/png" sizes="57x57">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/reset.css">
+        
         <link rel="stylesheet" href="css/layout.css">
     
     
@@ -16,22 +16,25 @@
     <body>
 
         <!-- Main Navigation (Pages)-->
-        <nav id="main-nav">
-            <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="about-us.html">About Us</a>
-            <a href="contact-us.html">Contact Us</a>
-        </nav>
+        <nav class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+         </nav>
 
         <header>
-               <h1> My First Page </h1>
+               <h1> STAY IN TOUCH</h1>
 
         </header>
 
-        <main>
-            <form action="Pages/success.html" method="post"> <!-- Action to success.html, POST method -->
-               <fieldset class="contact">
-                    <legend>Contact Us</legend>
+        <main class="contact">
+            <!--<h2>Contact Us</h2>-->
+            <fieldset>
+            <legend>CONTACT US</legend>
+            <form action="Pages/success.html" method="get"> <!-- Action to success.html, POST method -->
+               
+                    
                     <p>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
@@ -42,31 +45,37 @@
                         <input type="email" id="email" name="email" required>
                     </p>
                     
-                    <p>
-                        <label for="topic">Topic:</label>
-                        <select name="topic" id="topic"></select>
+                    <select name="topic" id="topic">
                         <option value="general">General Inquiry</option>
-                        <option value="intrudicion">Technical Support</option>
+                        <option value="introduction">Technical Support</option>
                         <option value="lastcourses">Feedback</option>
                         <option value="hobbies">Other</option>
-                    </p>
+                      </select>
+                      
+                      <br>
 
                     <p>
-                        <label for="favcolor">favColor</label>
+                        <label for="favcolor">Favorite Color</label>
                     </p>
 
-                    <p>
-                        <input type="radio" id="favcolor" name="favcolor" value="#ff0000"  required>Red
+                    <p class="favcolor-container">
+                        <label for="red">Red</label>
+                        <input type="radio" id="red" name="favcolor" value="#ff0000" required>
                     </p>
-
-                    <p>
-                        <input type="radio" id="favcolor" name="favcolor" value="#00ff00">Green
+                    
+                    <p class="favcolor-container">
+                        <label for="green">Green</label>
+                        <input type="radio" id="green" name="favcolor" value="#00ff00">
                     </p>
-                    <p>
-                        <input type="radio" id="favcolor" name="favcolor" value="#0000ff">Blue
+                    
+                    <p class="favcolor-container">
+                        <label for="blue">Blue</label>
+                        <input type="radio" id="blue" name="favcolor" value="#0000ff">
                     </p>
-                    <p>
-                        <input type="radio" id="favcolor" name="favcolor" value="#ffff00">Yellow 
+                    
+                    <p class="favcolor-container">
+                        <label for="yellow">Yellow</label>
+                        <input type="radio" id="yellow" name="favcolor" value="#ffff00">
                     </p>
                                             
                                 

@@ -3,6 +3,7 @@
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.25;
+            background-color: rgb(203, 203, 186);
         }
         header{
             border: darkolivegreen solid thin;
@@ -112,6 +113,7 @@
         footer a:active { 
             color:yellow; 
         }
+        
 
 
 
