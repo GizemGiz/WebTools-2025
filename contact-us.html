@@ -5,12 +5,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My First Page</title>
-        <link rel="icon" href="images/apple-icon-57x57.png" type="image/png" sizes="57x57">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
         
+        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/layout.css">
-    
-    
+        
     </head>
 
     <body>
@@ -18,7 +33,6 @@
         <!-- Main Navigation (Pages)-->
         <nav class="topnav">
             <a class="active" href="#home">Home</a>
-            <a href="#news">News</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
          </nav>
@@ -29,30 +43,36 @@
         </header>
 
         <main class="contact">
-            <!--<h2>Contact Us</h2>-->
+            <h2>Message Us</h2>
             <fieldset>
             <legend>CONTACT US</legend>
             <form action="Pages/success.html" method="get"> <!-- Action to success.html, POST method -->
                
                     
                     <p>
-                        <label for="name">Name:</label>
+                        <label for="name">Name:</label><br>
                         <input type="text" id="name" name="name" required>
                     <p>
 
 
-                    <p> <label for="email">Email:</label>
+                    <p> <label for="email">Email:</label><br>
                         <input type="email" id="email" name="email" required>
                     </p>
                     
-                    <select name="topic" id="topic">
+                    <p>
+                        <label for="Topic">Topic</label><br>
+                        <select id="topic" name="topic"required>
                         <option value="general">General Inquiry</option>
                         <option value="introduction">Technical Support</option>
                         <option value="lastcourses">Feedback</option>
                         <option value="hobbies">Other</option>
                       </select>
+                    </p>
                       
-                      <br>
+                    <p>
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" id="phone" name="phone" required>
+                    </p>
 
                     <p>
                         <label for="favcolor">Favorite Color</label>
@@ -78,7 +98,6 @@
                         <input type="radio" id="yellow" name="favcolor" value="#ffff00">
                     </p>
                                             
-                                
                     <p>
                         <label for="message">Message:</label><br>
                         <textarea id="message" name="message" rows="4" cols="50"></textarea>
@@ -87,8 +106,40 @@
                     <p> <input type="submit" value="Submit">
                         <input type="reset" value="Reset">
                     </p>
-                </fieldset>
-               </form>
+                </form>
+            </fieldset>
+            <table>
+                <caption>Table with Headers and Accessibility</caption>
+                <thead>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <th scope="col" abbr="Column 1" id="col1">Column 1 Title</th>
+                    <th scope="col" abbr="Column 2" id="col2">Column 2 Title</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Row1 Title</th>
+                    <td headers="col1">Cell 1</td>
+                    <td headers="col2">Cell 2</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Row 2 Title</th>
+                    <td headers="col1">Cell 3</td>
+                    <td headers="col2">Cell 4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Row 3 Title</th>
+                    <td headers="col1">Cell 5</td>
+                    <td headers="col2">Cell 6</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Row 4 Title</th>
+                    <td headers="col1">Cell 7</td>
+                    <td headers="col2">Cell 8</td>
+                  </tr>
+                </tbody>
+              </table>
             </main>
                
     <footer>
@@ -99,6 +150,7 @@
 
     </ul>
     <address>Brookhaven, TEXAS</address>
+    <p>All rights reserved</p>
 
     </footer>
 
