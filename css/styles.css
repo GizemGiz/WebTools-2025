@@ -161,7 +161,7 @@
     
     thead tr {
         background-color: rgb(44, 65, 90);
-        color: rgb(155, 152, 139);
+        color: rgb(189, 186, 171);
     }
     
     tbody tr:nth-child(even) {
@@ -170,34 +170,34 @@
     
     tbody tr:hover {
         background-color: darkslategray;
-        color: rgb(151, 129, 38);
+        color: rgb(153, 135, 65);
     }
         
-        caption {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .schedule-table {
-            border-collapse: collapse;
-            width: 60%;
-            margin: 0 auto;
-        }
-        .schedule-table th, .schedule-table td {
-            border: 1px solid #201f1f;
-            padding: 8px;
-        }
+    caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .schedule-table {
+        border-collapse: collapse;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .schedule-table th, .schedule-table td {
+        border: 1px solid #201f1f;
+        padding: 8px;
+    }
         .content-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;  /* Center horizontally */
-            justify-content: center;  
-            height: 100vh;  
-            text-align: center;  /* Center the text inside the container */
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* Center horizontally */
+        justify-content: center;  
+        height: 100vh;  
+        text-align: center;  /* Center the text inside the container */
+    }
         .logo {
-            width: 100px;  
-            height: auto;  
-            margin-bottom: 20px;  
+        width: 100px;  
+        height: auto;  
+        margin-bottom: 20px;  
         }
         
 
