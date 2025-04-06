@@ -190,14 +190,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;  /* Center horizontally */
-            justify-content: center;  /* Optionally center vertically */
-            height: 100vh;  /* Full viewport height */
+            justify-content: center;  
+            height: 100vh;  
             text-align: center;  /* Center the text inside the container */
         }
         .logo {
-            width: 100px;  /* Adjust the size as needed */
-            height: auto;  /* Maintain aspect ratio */
-            margin-bottom: 20px;  /* Space between logo and text */
+            width: 100px;  
+            height: auto;  
+            margin-bottom: 20px;  
         }
         
 
