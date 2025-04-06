@@ -1,33 +1,34 @@
 
         html, body{
+            
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.25;
-            background-color: rgb(203, 203, 186);
+            background-color: rgb(240, 240, 231);
         }
         header{
-            border: darkolivegreen solid thin;
+            border: rgb(45, 60, 60);
             padding: 30px; 
             /*margin: 30px; */
-            background-color:  rgb(45, 60, 60);
+            background-color:  rgb(44, 65, 90);
 
         }
         h1 {
-            color: rgb(199, 169, 129);
+            color: rgb(180, 170, 155);
             margin: 0;
             
             text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: clamp(24px,3vw, 3.5vw);
-            ront-weight: 700;
+            font-size: 2.5rem;
+            font-weight: 700;
 
         }
         h2{
-            font-size: 2vw;
+            font-size: 1.2rem;
 
         }
         h3{
-            font-size: 1.5vw;
+            font-size: 1.2rem;
         }
         h2, h3{
             color: rgb(116, 71, 13);
@@ -39,6 +40,8 @@
         p{
             margin: 0 0 1em;
             padding: 0 10px;
+            font-size: small;
+            overflow: hidden;
         }
         footer{
         text-align: center;
@@ -46,41 +49,59 @@
         padding: 10px 0 20px;
         }
         
-        address{
-            color: cornsilk;
+        footer address{
+            color:rgb(202, 176, 154);
         }
-        li{
+        footer li{
             list-style-type: none;
         
         }
+        footer a:link{
+            color: #f5f2f2; 
+            
+        }
+        footer a:visited { 
+                color:rgb(202, 176, 154); 
+        }       
+        footer a:hover { 
+                color:rgb(129, 126, 168); 
+                text-decoration:none
+        } 
+        footer a:active { 
+                color:yellow; 
+        }
         
-    
        footer h2{
-        color:  rgb(199, 169, 129);
+        color:  rgb(106, 80, 45);
        }
        a:link {
                 color: #593F36; 
                } /* unvisited link */
-       a:visited { color:rgb(189, 149, 183); } /* visited link */
+       a:visited { 
+        color:rgb(189, 149, 183); 
+        } /* visited link */
        
-       a:hover { color:rgb(49, 145, 97); 
-               text-decoration:none} /* mouse over link */
+       a:hover { 
+            color:rgb(49, 145, 97); 
+            text-decoration:none
+        } /* mouse over link */
        
-       a:active { color:yellow; }  /* selected link */
+       a:active { 
+        color:yellow; 
+        }  
 
+        .blog-image {
+            width: 20px;
+            min-width: 200px;
+        }
+        
        .thumbnail {
         width: 250px;
         height: auto;
         display: block;
         margin: 10px auto;
-        
        }
        
-       .blog.images{
-        width: 10%;
-        display: block ;
-        margin: 0 auto;
-       }
        figure {
         text-align: center;
         margin: 0;
@@ -99,20 +120,47 @@
         margin: 0 auto;
        } */
 
-       footer a:link{
-        color: #f5f2f2; 
-        
-       }
-         footer a:visited { 
-            color:rgb(202, 176, 154); 
-        }       
-        footer a:hover { 
-            color:rgb(94, 87, 196); 
-            text-decoration:none
-        } 
-        footer a:active { 
-            color:yellow; 
+      .fieldset {
+        margin: 0 0 50px;
+      }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 10px;
         }
+        table caption{
+            font-weight: 800;
+            font-size:1.3rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        tr {
+            border-bottom: thin solid black;
+        }
+        thead tr{
+            background-color: rgb(56, 56, 169);
+            color: rgb(251, 251, 251);
+        }
+        tbody tr:nth-child(even) {
+            background-color: rgb(197, 197, 68);
+        }
+        tbody tr:hover{
+            background-color: royalblue;
+            color: violet;
+        }
+        th {
+            background-color: #678693;
+        }
+        td {
+            background-color: #fff;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
         
 
 

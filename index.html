@@ -36,17 +36,15 @@
 <body>
     <header> 
 
-        <h1>Web Tools Porject 2025</h1> <!-- class="banner-heading"-->
+        <h1>Web Tools Porject 2025</h1> 
         <img src="images/logo.png" alt="Site Logo" class="logo">
+
     </header>
     <nav id="Site=" class="topnav">
         <a href="#home">Home</a>
-        <a href="#contact-us.html" class="'active">Contact Us</a>
+        <a href="contact-us.html" target="_blank">Contact</a>
+
         <a href="#">About Us</a>
-        
-    
-    <!--make page paragpafh in to the middle
-    add apple icons on top -->
     </nav>  
     <main class="contact"> 
         <aside id="contents" class="contact-aside">
@@ -58,8 +56,12 @@
             </ul>
          </aside>
          <br>
-        
-    <h2>Welcome To 'About Me' Page</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Welcome To 'About Me' Page</h2>
     
         <p>Welcome to my personal page! Here, you'll find information about my background, interests, and the courses I've taken. 
             I'm excited to share a bit about myself and my journey in the world of technology.</p>
@@ -83,10 +85,9 @@
             </p>
         </div>
     
-            <br>
-
         </section>
-        <section>
+        <br>
+        <section class="highlight clearfix">
             <h3 id="past-course-i-took">PAST COURSES I TOOK</h3>
             <p> I have taken courses such as MySQL, 
                 which helps me understand database management and data structures, 
@@ -98,7 +99,14 @@
             
         </section>
         <br>
-        <section>
+        <section class="highlight clearfix">
+            <figure class="float-right article-image">
+                <a href="images/developer-vs-tester-thumb-lg.png" target="_blank">
+                    <img src="images/developer-vs-tester-thumb.png" alt="Developer-vs-Tester" class="thumbnail blog-images">
+                </a>
+                <figcaption>Tester vs Developer</figcaption>
+            </figure>
+            <div class="highlight-text"> </div>
             <h3 id="reason-for-taking-class">REASON FOR TAKING THIS CLASS</h3>
             <p>I'm taking Web Design Tools because I want to build a strong foundation in front-end development. 
                 Since I'm working toward becoming a software developer, 
@@ -114,16 +122,18 @@
                 like MySQL and CompTIA A+, by gaining a better understanding of how the front end interacts with back-end systems. 
                 Having a well-rounded skill set will not only make me a more capable developer but also give me more flexibility in my career.</p>
                 
-                <figure>
-                    <a href="images/developer-vs-tester-thumb-lg.png" target="_blank">
-                        <img src="images/developer-vs-tester-thumb.png" alt="Developer-vs-Tester" class="thumbnail blog-images">
-                    </a>
-                    <figcaption>Tester vs Developer</figcaption>
-                </figure>
+               
                 </section>
         <br>
-        <section> 
+        <section class="highlight clearfix"> 
+            <figure class="float-right article-image">
+                <a href="images/Turkiye-Mediternean-thumb-lg.png" target="_blank">
+                    <img src="images/Turkiye-Mediternean-thumb.png" alt="Olu-deniz" class="thumbnail blog-images">
+                </a>
+                <figcaption>Olu Deniz, Mugla/Turkiye</figcaption>
+            </figure>
             <h3 id="personal-hobbies">PERSONAL HOBBIES</h3>
+            
         <p>Beyond academics, I have a variety of interests that keep me balanced.
             I enjoy drawing, as it allows me to express creativity and take a break from the technical world.
             I also love staying active through volleyball, tennis, and swimming, which help me maintain a healthy lifestyle.
@@ -132,56 +142,45 @@
             My favorite place is Oludeniz, Mugla/Turkiye. Also I love travelling. Always want to see new places, new cultures or even a new restuarant or cafee shops. 
             Discovering new places are always best feeling.
             Additionally, I sometimes like cooking and experimenting with different recipes, particularly Turkish cuisine,
-            as it allows me to explore flavors and connect with my cultural roots.
-            PS: If you're in IT, I highly recommend watching Silicon Valley—it's a must-see!</p>
-           
-            
-                
-                <!--<a href="images/IT-show-siliconvalley-thumb-lg.gif" target="_blank">
-                    <img src="images/IT-show-siliconvalley-thumb.gif" alt="Silicon Valley" class="thumbnail">   
-                </a>
-                <figcaption>You should check out Silicon Valley!</figcaption>
-            </figure> -->
-            
-                <br>
-                <figure>
-                    <a href="images/Turkiye-Mediternean-thumb-lg.png" target="_blank">
-                        <img src="images/Turkiye-Mediternean-thumb.png" alt="Olu-deniz" class="thumbnail blog-images">
-                    </a>
-                    <figcaption>Olu Deniz, Mugla/Turkiye</figcaption>
-                </figure>
+            as it allows me to explore flavors and connect with my cultural roots. PS: If you're in IT, I highly recommend watching Silicon Valley—it's a must-see!</p>
+                    
         </section>
         <br>
 
 
-        <!-- Accessibly table for my school schedule -->
-        <table>
-            <caption>Spring 2025 Class Schedule</caption>
+        <!-- Accessibly table for my monthly schedule -->
+        
+        <div class="schedule-table">
+            <table class="schedule-table">
+            
+                <caption>My Monthly Schedule</caption>
+        
             <thead>
                 <tr>
-                    <th scope="col">Course</th>
+                    <th scope="col">Week Schedule</th>
                     <th scope="col" id="days">Days</th>
                     <th scope="col" id="time">Time</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">Intro to Web Design</th>
-                    <td headers="days">Monday/Wednesday</td>
-                    <td headers="time">10:00am - 11:30am</td>
+                    <th scope="row">Pyhton</th>
+                    <td headers="days">Monday-Friday</td>
+                    <td headers="time">1:00pm - 2:00pm</td>
                 </tr>
                 <tr>
-                    <th scope="row">Intro to Web Development</th>
-                    <td headers="days">Tuesday/Thursday</td>
-                    <td headers="time">1:00pm - 2:30pm</td>
+                    <th scope="row">GYM</th>
+                    <td headers="days">Monday-Friday</td>
+                    <td headers="time">5:30pm - 6:30pm</td>
                 </tr>
                 <tr>
-                    <th scope="row">Advanced Web Development</th>
-                    <td headers="days">Monday/Wednesday</td>
-                    <td headers="time">6:00pm - 7:30pm</td>
+                    <th scope="row">Music</th>
+                    <td headers="days">Tuesday-Thursday</td>
+                    <td headers="time">12:00pm - 2:00pm</td>
                 </tr>
             </tbody>
         </table> 
+        </div>
     </main>
 
     <footer>

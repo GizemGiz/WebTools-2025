@@ -12,11 +12,12 @@
                clear: both;
 }
 .highlight{
+               width: 60%;
                position: relative;
-               background-color: #aba8a8;
-               border: 1px solid #418928;
+               background-color: #b1b3ac;
+               border: 1px solid #149eb6;
                border-radius: 4px;
-               margin: 0 0 1em;
+               margin: 0 auto;;
                padding: 1em;
 }
 .highlight-text {
@@ -24,17 +25,18 @@
                padding: 0 10px;
                width: 67%;
                
+               
 }
 
 .logo{
                position: absolute;
-               top: 4vh;
+               top: 3vh;
                right: 6vw;
                width: clamp(100px, 10vw, 200px);            
                height: auto;
 }
 .article-image {
-               width: 30%;
+               width: 50%;
                min-width: 200px;
                margin-top: 3em;
 }
@@ -42,10 +44,15 @@
                float:right;
 }
 .contact-aside{
-             /* 
+             
               position: sticky;
               float: left ;
               top: 0;
               margin: 0 0 0 2em;    
-              */ 
+              
 }
+.schedule-table {
+                
+               text-align: center; 
+               
+           }
