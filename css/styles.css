@@ -186,7 +186,19 @@
             border: 1px solid #201f1f;
             padding: 8px;
         }
-        
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  /* Center horizontally */
+            justify-content: center;  /* Optionally center vertically */
+            height: 100vh;  /* Full viewport height */
+            text-align: center;  /* Center the text inside the container */
+        }
+        .logo {
+            width: 100px;  /* Adjust the size as needed */
+            height: auto;  /* Maintain aspect ratio */
+            margin-bottom: 20px;  /* Space between logo and text */
+        }
         
 
 
