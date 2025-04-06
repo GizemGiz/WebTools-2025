@@ -75,16 +75,17 @@
         color:  rgb(106, 80, 45);
        }
        a:link {
-                color: #593F36; 
-               } /* unvisited link */
+            color: rgb(180, 170, 155); 
+               
+        } 
        a:visited { 
-        color:rgb(189, 149, 183); 
-        } /* visited link */
+            color:rgb(189, 149, 183); 
+        } 
        
        a:hover { 
             color:rgb(49, 145, 97); 
             text-decoration:none
-        } /* mouse over link */
+        } 
        
        a:active { 
         color:yellow; 
