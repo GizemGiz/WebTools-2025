@@ -45,7 +45,7 @@
         }
         footer{
         text-align: center;
-        background-color: rgb(45, 60, 60);
+        background-color: rgb(44, 65, 90);
         padding: 10px 0 20px;
         }
         
@@ -139,39 +139,40 @@
       .fieldset {
         margin: 0 0 50px;
       }
-        .table {
-            width: 100%;
-            border-collapse: collapse;
-            border-spacing: 10px;
-        }
-        table caption{
-            font-weight: 800;
-            font-size:1.3rem;
-        }
-        th, td {
-            text-align: left;
-            padding: 8px;
-        }
-        tr {
-            border-bottom: thin solid black;
-        }
-        thead tr{
-            background-color: rgb(56, 56, 169);
-            color: rgb(20, 20, 20);
-        }
-        tbody tr:nth-child(even) {
-            background-color: rgb(197, 197, 68);
-        }
-        tbody tr:hover{
-            background-color: royalblue;
-            color: violet;
-        }
-        th {
-            background-color: #678693;
-        }
-        td {
-            background-color: #fff;
-        }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    table caption {
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    
+    th,
+    td {
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr {
+        border-bottom: thin solid black;
+    }
+    
+    thead tr {
+        background-color: rgb(44, 65, 90);
+        color: rgb(155, 152, 139);
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: rgb(148, 141, 113);
+    }
+    
+    tbody tr:hover {
+        background-color: darkslategray;
+        color: rgb(151, 129, 38);
+    }
+        
         caption {
             font-weight: bold;
             margin-bottom: 10px;
@@ -182,9 +183,10 @@
             margin: 0 auto;
         }
         .schedule-table th, .schedule-table td {
-            border: 1px solid #ddd;
+            border: 1px solid #201f1f;
             padding: 8px;
         }
+        
         
 
 
