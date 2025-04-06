@@ -70,9 +70,11 @@
         footer a:active { 
                 color:yellow; 
         }
-        
+        footer p{
+            color: rgb(202, 176, 154);
+        }
        footer h2{
-        color:  rgb(106, 80, 45);
+        color:  rgb(180, 170, 155);
        }
        a:link {
             color: rgb(66, 39, 4); 
