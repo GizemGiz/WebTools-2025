@@ -49,6 +49,8 @@
             font-size: small;
             overflow: hidden;
         }
+
+        
         footer{
         text-align: center;
         background-color: rgb(44, 65, 90);
@@ -207,5 +209,6 @@
         }
         
 
+        
 
 

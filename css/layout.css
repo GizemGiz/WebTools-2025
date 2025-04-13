@@ -162,4 +162,46 @@
     margin: 0.5em 0;
 }
     */
-    
+    .success-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto; /* Adjust height to fit content */
+      background-color: rgb(240, 250, 240);
+      text-align: center;
+      padding: 10px; /* Reduced padding */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 20px auto; /* Added margin for spacing */
+      max-width: 300px; /* Reduced max-width */
+  }
+  
+  .success-page h2 {
+      color: rgb(44, 90, 44);
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+  
+  .success-page p {
+      font-size: 1.2rem;
+      color: rgb(70, 70, 70);
+      margin-bottom: 30px;
+  }
+  
+  .success-page .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: white;
+      background-color: rgb(44, 90, 44);
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .success-page .btn:hover {
+      background-color: rgb(34, 70, 34);
+  }
