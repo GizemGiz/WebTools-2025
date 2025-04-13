@@ -35,11 +35,15 @@
                width: clamp(100px, 10vw, 200px);            
                height: auto;
 }
+
 .article-image {
-               width: 50%;
-               min-width: 200px;
-               margin-top: 3em;
-}
+    width: 45%;
+    max-width: 100%;
+    margin: 0 1em 1em 0;
+    float: right;
+  }
+     
+
 .float-right{
                float:right;
 }
@@ -88,12 +92,13 @@
 
 
 .main-nav {
+    width: 80vw;
+    margin: 0;
+    flex: left;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #8e8c8c;
-    
-    
 }
 
 /* Style the links inside the navigation bar */
@@ -119,6 +124,25 @@
     color: rgb(63, 122, 87);
     border-radius: 10px 10px 0 0; /* Rounded corners for active link */
   }
+  .main-content {
+    width: 80vw;
+    margin: 0;
+    float: left;
+  }
+  
+  .content-aside {
+    float: right;
+    width: 18vw; /* slight margin left over */
+    position: sticky;
+    top: 0;
+    margin-right: 1vw;
+  }
+  .article-section {
+    padding: 1em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+  }
+  
 .sign-in {
                 /* align this link to the right of the page */
                 margin-left: auto;
