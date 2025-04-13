@@ -94,7 +94,7 @@
 .main-nav {
     width: 80vw;
     margin: 0;
-    flex: left;
+    flex: 1 0 100%;
     display: flex;
     justify-content: center;
     align-items: center;
