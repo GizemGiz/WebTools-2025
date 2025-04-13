@@ -13,6 +13,12 @@
             background-color:  rgb(44, 65, 90);
 
         }
+        main{
+            margin: 0 ;
+            padding: 0 ;
+            max-width: 100%;
+           
+        }
         h1 {
             color: rgb(180, 170, 155);
             margin: 0;

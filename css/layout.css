@@ -56,3 +56,84 @@
                text-align: center; 
                
            }
+           
+.team {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                
+}
+        
+.team-members{
+    text-align: center;
+    width: 30px;
+    min-height: 200px;
+    margin: 1em 0;
+    padding: 2em;
+    border-radius: 5px;
+    background-color: #7c6666;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.team-member h3{
+    margin: 0.5em 0;
+    font-size: large;
+}
+.team-member img{
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+                
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e8c8c;
+    
+    
+}
+
+/* Style the links inside the navigation bar */
+.main-nav a {
+    float: left;
+    color: rgb(199, 169, 129);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .main-nav a:hover {
+    background-color: rgb(203, 203, 186);
+    color: rgb(63, 122, 87);
+    border-radius: 10px 10px 0 0;  /* Rounded corners for active link */
+  }
+  
+  /* Add a color to the active/current link */
+  .main-nav a.active {
+    background-color: #878d8b;
+    color: rgb(195, 59, 59);
+    
+  }
+.sign-in {
+                /* align this link to the right of the page */
+                margin-left: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+/* .foot-head{
+    font-size: smaller;
+    
+    color: #b8acac;
+    margin: 0.5em 0;
+}
+    */
+    
