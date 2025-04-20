@@ -114,7 +114,7 @@
   /* Change the color of links on hover */
   .main-nav a:hover {
     background-color: rgb(203, 203, 186);
-    color: rgb(63, 122, 87);
+    color: rgb(26, 61, 155);
     border-radius: 10px 10px 0 0;  /* Rounded corners for active link */
 }
   

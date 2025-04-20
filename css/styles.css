@@ -37,7 +37,7 @@
             font-size: 1.2rem;
         }
         h2, h3{
-            color: rgb(116, 71, 13);
+            color: rgb(202, 196, 187);
             margin: .5em 0;
             
             text-align: center;
@@ -85,7 +85,7 @@
             color:  rgb(180, 170, 155);
        }
        a:link {
-            color: rgb(66, 39, 4); 
+            color: rgb(250, 248, 247); 
                
         } 
        a:visited { 
@@ -93,7 +93,7 @@
         } 
        
        a:hover { 
-            color:rgb(49, 145, 97); 
+            color:rgb(77, 107, 163); 
             text-decoration:none
         } 
        
