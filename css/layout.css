@@ -1,5 +1,5 @@
-*{
-               box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 .banner-heading{
                margin-left: clamp(200px, 20%, 250px);
@@ -70,13 +70,13 @@
 
 .team-members {
     text-align: center;
-    width: 30%; /* now it's valid */
+    width: 30%;
     min-width: 200px;
-    background-color: #b4afa0;
-    padding: 1em;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    color: white;
+    margin: 1em 0;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .team-members h3 {

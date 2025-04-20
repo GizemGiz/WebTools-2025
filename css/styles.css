@@ -17,6 +17,8 @@
             margin: 0 ;
             padding: 0 ;
             max-width: 100%;
+            display: block;
+            unicode-bidi: isolate;
            
         }
         h1 {
@@ -207,7 +209,10 @@
         height: auto;  
         margin-bottom: 20px;  
         }
-
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
         
 
         
