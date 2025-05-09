@@ -23,8 +23,10 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <title>My First Page</title>
+
        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     </head>
 
     <body >
@@ -36,26 +38,26 @@
             <a href="team.html">About</a>
          </nav>
 
-        <main class="contact">
+        <main class="contact"></main>
             <h2>Message Us</h2>
             <fieldset>
             <legend>CONTACT US</legend>
-            <form action="Pages/success.html" method="get"> <!-- Action to success.html, GET method -->
+            <form class="w3-container" action="Pages/success.html" method="get"> <!-- Action to success.html, GET method -->
                
                     
                     <p>
                         <label for="name">Name:</label><br>
-                        <input type="text" id="name" name="name" required>
+                        <input class="w3-input" type="text" id="name" name="name" required>
                     </p>
 
 
                     <p> <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" required>
+                        <input class="w3-input" type="email" id="email" name="email" required>
                     </p>
                     
                     <p>
                         <label for="topic">Topic</label><br>
-                        <select id="topic" name="topic" required>
+                        <select class="w3-select" id="topic" name="topic" required>
                           <option value="" disabled selected>Select a topic</option>
                           <option value="general">General Inquiry</option>
                           <option value="introduction">Technical Support</option>
@@ -67,7 +69,7 @@
                       
                     <p>
                         <label for="phone">Phone</label><br>
-                        <input type="tel" id="phone" name="phone" required>
+                        <input class="w3-input" type="tel" id="phone" name="phone" required>
                     </p>
 
                     <p>
@@ -76,35 +78,37 @@
 
                     <p class="favcolor-container">
                         <label for="red">Red</label>
-                        <input type="radio" id="red" name="favcolor" value="#ff0000" required>
+                        <input class="w3-radio" type="radio" id="red" name="favcolor" value="#ff0000" required>
                     </p>
                     
                     <p class="favcolor-container">
                         <label for="green">Green</label>
-                        <input type="radio" id="green" name="favcolor" value="#00ff00">
+                        <input class="w3-radio" type="radio" id="green" name="favcolor" value="#00ff00">
                     </p>
                     
                     <p class="favcolor-container">
                         <label for="blue">Blue</label>
-                        <input type="radio" id="blue" name="favcolor" value="#0000ff">
+                        <input class="w3-radio" type="radio" id="blue" name="favcolor" value="#0000ff">
                     </p>
                     
                     <p class="favcolor-container">
                         <label for="yellow">Yellow</label>
-                        <input type="radio" id="yellow" name="favcolor" value="#ffff00">
+                        <input class="w3-radio" type="radio" id="yellow" name="favcolor" value="#ffff00">
                     </p>
                                             
                     <p>
                         <label for="message">Message:</label><br>
-                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                        <textarea class="w3-input" id="message" name="message" rows="4" cols="50"></textarea>
                     </p>
                                                 
-                    <p> <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
+                    <p> <button class="w3-button w3-blue w3-round">Send</button>
+                        <input class="w3-button w3-red w3-round" type="reset" value="Reset">
                     </p>
                 </form>
             </fieldset>
-            <table class="data-table">
+            <table class="w3-margin-top w3-table-all w3-hoverable" aria-labelledby="tour-schedule">
+          <caption id="tour-schedule" class="w3-center w3-large w3-text-blue">Tour Schedule</caption>
+            <caption class="w3-center w3-large w3-text-blue">Tour Schedule</caption>
               <caption>Tour Schedule</caption>
               <thead>
                   <tr>
