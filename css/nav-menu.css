@@ -1,0 +1,45 @@
+/* Set nav to sticky or fixed */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(19, 39, 62);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: rgb(199, 169, 129);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(203, 203, 186);
+  color: rgb(63, 122, 87);
+  border-radius: 10px 10px 0 0;  /* Rounded corners for active link */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+  
+}
+.favcolor-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  gap: 10px; /* Adds spacing between the radio button and label */
+}
+
+.favcolor-container input {
+  order: 2; /* Moves the radio button to the right */
+}
+
+.favcolor-container label {
+  order: 1; /* Moves the text to the left */
+}

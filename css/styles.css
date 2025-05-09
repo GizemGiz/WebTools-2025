@@ -1,0 +1,246 @@
+
+html, body{
+            
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.25;
+            background-color: rgb(240, 240, 231);
+}
+header{
+            border: rgb(45, 60, 60);
+            padding: 30px; 
+            /*margin: 30px; */
+            background-color:  rgb(44, 65, 90);
+
+}
+
+main{
+            margin: 0 ;
+            padding: 0 ;
+            max-width: 100%;
+            display: block;
+            unicode-bidi: isolate;
+           
+}
+
+h1 {
+            color: rgb(180, 170, 155);
+            margin: 0;
+            
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+
+}
+
+h2{
+            font-size: 1.2rem;
+
+}
+
+h3{
+            font-size: 1.2rem;
+}
+
+h2, h3{
+            color: rgb(80, 102, 151);
+            margin: .5em 0;
+            
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+            margin: 0 0 1em;
+            padding: 0 10px;
+            font-size: small;
+            overflow: hidden;
+}
+
+        
+footer{
+        text-align: center;
+        background-color: rgb(44, 65, 90);
+        padding: 10px 0 20px;
+}
+        
+footer address{
+            color:rgb(202, 176, 154);
+}
+
+footer li{
+            list-style-type: none;
+        
+}
+
+footer a:link{
+            color: #f5f2f2; 
+            
+}
+
+footer a:visited { 
+                color:rgb(202, 176, 154); 
+}  
+
+footer a:hover { 
+                color:rgb(129, 126, 168); 
+                text-decoration:none
+} 
+
+footer a:active { 
+                color:yellow; 
+}
+
+footer p{
+            color: rgb(202, 176, 154);
+}
+
+footer h2{
+            color:  rgb(180, 170, 155);
+}
+
+a:link {
+            color: rgb(49, 64, 206); 
+               
+} 
+a:visited { 
+            color:rgb(189, 149, 183); 
+} 
+       
+a:hover { 
+            color:rgb(77, 107, 163); 
+            text-decoration:none
+}  
+a:active { 
+        color:yellow; 
+}  
+.contact {
+            width: 70%;
+            margin: 0 auto 20px;
+}
+nav.topnav a:link {
+            color: rgb(180, 170, 155);
+}
+nav.topnav a:visited {
+            color: rgb(189, 149, 183);
+}
+nav.topnav a:hover {
+            color: rgb(49, 145, 97);
+            text-decoration: none;
+}
+nav.topnav a:active {
+            color: yellow;
+}
+
+.blog-image {
+            width: 20px;
+            min-width: 200px;
+}
+        
+.thumbnail {
+        width: 250px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+    
+figure {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+}
+
+    figcaption {
+    font-size: 14px;
+        color: #020202;
+}
+
+      /* .large-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+       } */
+
+.fieldset {
+        margin: 0 0 50px;
+      }
+table {
+        border-collapse: collapse;
+        width: 100%;
+}
+    
+table caption {
+        font-weight: 800;
+        font-size: 1.5rem;
+}
+    
+th,
+td {
+        text-align: left;
+        padding: 8px;
+}
+    
+tr {
+        border-bottom: thin solid black;
+}
+    
+thead tr {
+        background-color: rgb(44, 65, 90);
+        color: rgb(238, 236, 226);
+}
+    
+tbody tr:nth-child(even) {
+        background-color: rgb(148, 141, 113);
+}
+    
+tbody tr:hover {
+        background-color: darkslategray;
+        color: rgb(153, 135, 65);
+}
+caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+}
+.schedule-table {
+        border-collapse: collapse;
+        width: 60%;
+        margin: 0 auto;
+}
+.schedule-table th, .schedule-table td {
+        border: 1px solid #201f1f;
+        padding: 8px;
+}
+        
+.logo {
+        width: 100px;  
+        height: auto;  
+        margin-bottom: 20px;  
+}
+
+.aside ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.topnav {
+        background-color: rgb(44, 65, 90);
+        overflow: hidden;
+        display: flex;
+        justify-content:center;
+        padding: 20px 50px;
+        
+    }
+    .topnav ul li a:hover {
+        background-color: #575757; /* Highlight background on hover */
+        color: #fff; /* Keep text white on hover */
+        border-radius: 5px; /* Optional: Rounded corners */
+    }
+
+
+        
+
+        
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/apple-icon-57x57.png" type="image/png" sizes="57x57">
+        
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <title>My First Page</title>
+
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    </head>
+
+    <body >
+        </header>
+        <nav id="site" class="topnav">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="team.html">About</a>
+            </ul>
+            </nav>
+
+        <main class="contact"></main>
+            <h2>Message Us</h2>
+            <fieldset>
+            <legend>CONTACT US</legend>
+            <form class="w3-container" action="Pages/success.html" method="get"> <!-- Action to success.html, GET method -->
+               
+                    
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input class="w3-input" type="text" id="name" name="name" required>
+                    </p>
+
+
+                    <p> <label for="email">Email:</label><br>
+                        <input class="w3-input" type="email" id="email" name="email" required>
+                    </p>
+                    
+                    <p>
+                        <label for="topic">Topic</label><br>
+                        <select class="w3-select" id="topic" name="topic" required>
+                          <option value="" disabled selected>Select a topic</option>
+                          <option value="general">General Inquiry</option>
+                          <option value="introduction">Technical Support</option>
+                          <option value="lastcourses">Feedback</option>
+                          <option value="hobbies">Other</option>
+                        </select>
+                      </p>
+                      
+                      
+                    <p>
+                        <label for="phone">Phone</label><br>
+                        <input class="w3-input" type="tel" id="phone" name="phone" required>
+                    </p>
+
+                    <p>
+                        Favorite Color:
+                    </p>
+
+                    <p class="favcolor-container">
+                        <label for="red">Red</label>
+                        <input class="w3-radio" type="radio" id="red" name="favcolor" value="#ff0000" required>
+                    </p>
+                    
+                    <p class="favcolor-container">
+                        <label for="green">Green</label>
+                        <input class="w3-radio" type="radio" id="green" name="favcolor" value="#00ff00">
+                    </p>
+                    
+                    <p class="favcolor-container">
+                        <label for="blue">Blue</label>
+                        <input class="w3-radio" type="radio" id="blue" name="favcolor" value="#0000ff">
+                    </p>
+                    
+                    <p class="favcolor-container">
+                        <label for="yellow">Yellow</label>
+                        <input class="w3-radio" type="radio" id="yellow" name="favcolor" value="#ffff00">
+                    </p>
+                                            
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea class="w3-input" id="message" name="message" rows="4" cols="50"></textarea>
+                    </p>
+                                                
+                    <p> <button class="w3-button w3-blue w3-round">Send</button>
+                        <input class="w3-button w3-red w3-round" type="reset" value="Reset">
+                    </p>
+                </form>
+            </fieldset>
+            <table class="w3-margin-top w3-table-all w3-hoverable" aria-labelledby="tour-schedule">
+            <caption id="tour-schedule" class="w3-center w3-large w3-text-blue">Tour Schedule</caption>
+            
+              <thead>
+                  <tr>
+                      <th scope="col" id="tour-date">Date</th>
+                      <th scope="col" id="tour-location">Location</th>
+                      <th scope="col" id="tour-name">Tour Name</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row">April 10, 2025</th>
+                      <td headers="tour-location">New York City</td>
+                      <td headers="tour-name">Broadway Show Tour</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">April 15, 2025</th>
+                      <td headers="tour-location">Los Angeles</td>
+                      <td headers="tour-name">Hollywood Walk of Fame Tour</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">April 20, 2025</th>
+                      <td headers="tour-location">Italy</td>
+                      <td headers="tour-name">Pasta Tour</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">April 25, 2025</th>
+                      <td headers="tour-location">Chicago</td>
+                      <td headers="tour-name">Architecture Cruise Tour</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">May 1, 2025</th>
+                      <td headers="tour-location">Las Vegas</td>
+                      <td headers="tour-name">Vegas Strip Night Tour</td>
+                  </tr>
+              </tbody>
+          </table>
+        </main>
+               
+        <footer>
+                <h2>Copy Right &copy; 2025</h2>
+                <ul>
+                  <li><a href="https://www.dallascollege.edu/pages/default.aspx">Visit Dallas College</a></li>
+                  <li><a href="mailto:blabla@gmail.com">Email the soon master</a></li>
+                </ul>
+                <address>Brookhaven, TEXAS</address>
+        </footer>
+              
+</body>
+
+</html>
