@@ -224,6 +224,7 @@ caption {
     padding-left: 0;
 }
 
+<<<<<<< HEAD
 .topnav {
         background-color: rgb(44, 65, 90);
         overflow: hidden;
@@ -237,6 +238,8 @@ caption {
         color: #fff; /* Keep text white on hover */
         border-radius: 5px; /* Optional: Rounded corners */
     }
+=======
+>>>>>>> a228bf7e660c189022bd68572582d623e71bcf62
 
 
         
