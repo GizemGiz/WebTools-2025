@@ -41,10 +41,11 @@ h2{
 
 h3{
             font-size: 1.2rem;
+            
 }
 
 h2, h3{
-            color: rgb(80, 102, 151);
+            color: rgb(9, 54, 109);
             margin: .5em 0;
             
             text-align: center;
@@ -63,6 +64,11 @@ footer{
         text-align: center;
         background-color: rgb(44, 65, 90);
         padding: 10px 0 20px;
+}
+footer h3{
+            color: rgb(180, 170, 155);
+            margin: 0;
+            font-size: 1.2rem;
 }
         
 footer address{
@@ -229,7 +235,7 @@ caption {
 }
 
 .topnav {
-        background-color: rgb(44, 65, 90);
+        background-color: rgb(18, 76, 146);
         overflow: hidden;
         display: flex;
         justify-content:center;
