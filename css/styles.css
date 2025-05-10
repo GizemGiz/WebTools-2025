@@ -101,7 +101,7 @@ footer h2{
 }
 
 a:link {
-            color: #000070
+            color: #272742
 } 
 a:visited { 
             color:rgb(189, 149, 183); 
@@ -187,7 +187,12 @@ tr {
     
 thead tr {
         background-color: rgb(44, 65, 90);
-        color: rgb(238, 236, 226);
+        color: rgb(255, 255, 255);              
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(196, 108, 26);
 }
     
 tbody tr:nth-child(even) {
